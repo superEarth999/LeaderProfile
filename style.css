@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure header appears above other content */
+}
+
+
+
+#logo {
+    height: 100px;
+    margin-right: 20px;
+}
+section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 170px;
+    
+}
+nav{
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#language-buttons {
+    display: flex;
+}
+
+#language-buttons button {
+    margin-left: 10px;
+}
+
+#content {
+    padding: 20px;
+    padding-top: 60px;
+    
+}
+
+
+/* Style for the contact section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 15%;
+    padding-top: 100px;
+  }
+  
+  /* Style for the form */
+  #contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style for form labels */
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for form inputs */
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for submit button */
+  #contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for submit button */
+  #contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+/* Footer fixed at the bottom */
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
