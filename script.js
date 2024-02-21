@@ -31,8 +31,7 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
     nav.classList.toggle('show');
     this.classList.toggle('change');
 
-    // Toggle body scrolling
-    document.body.classList.toggle('no-scroll');
+    // Toggle body scrollinggitocument.body.classList.toggle('no-scroll');
 });
 
 // Close the menu when a menu item is clicked
