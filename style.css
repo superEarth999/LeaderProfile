@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 /* Footer fixed at the bottom */
 footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
