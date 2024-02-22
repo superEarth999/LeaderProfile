@@ -34,20 +34,21 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
     // Toggle body scrollinggitocument.body.classList.toggle('no-scroll');
 });
 
+
 // Close the menu when a menu item is clicked
-document.querySelectorAll('nav ul li a').forEach(function(item) {
-    item.addEventListener('click', function() {
-        var nav = document.querySelector('nav');
-        var menuToggle = document.getElementById('menu-toggle');
+// document.querySelectorAll('nav ul li a').forEach(function(item) {
+//     item.addEventListener('click', function() {
+//         var nav = document.querySelector('nav');
+//         var menuToggle = document.getElementById('menu-toggle');
         
-        // Close the menu
-        nav.classList.remove('show');
-        menuToggle.classList.remove('change');
+//         // Close the menu
+//         nav.classList.remove('show');
+//         menuToggle.classList.remove('change');
         
-        // Enable scrolling
-        document.body.classList.remove('no-scroll');
-    });
-});
+//         // Enable scrolling
+//         document.body.classList.remove('no-scroll');
+//     });
+// });
 
 
 

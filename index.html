@@ -118,7 +118,7 @@
             <p>लोहगाव, पुणे, महाराष्ट्र, भारत</p>
             
             <h3 data-translate="message">संदेश</h3>
-            <form id="contact-form">
+            <form id="contact-form"  >
                 <label for="name">नाव:</label>
                 <input type="text" id="name" name="name" required>
                 
@@ -129,7 +129,7 @@
                 <textarea id="message" name="message" required></textarea>
     
                 <label for="complaint">तक्रार पेटी:(complaint Box)</label>
-                <textarea id="complaint" name="complaint" required></textarea>
+                <textarea id="complaint" name="complaint" ></textarea>
                 
                 <!-- <button type="submit" data-translate="send_message">जतन करा</button> -->
                 <button onclick="redirectToURL()">जतन करा</button>
@@ -140,12 +140,40 @@
     <footer>
         <p>&copy; २०२४ बंडू भाऊ खांदवे युवा मंच,लोहगाव</p>
     </footer>
-    <script>
+    <!-- <script>
         function redirectToURL() {
             // Replace 'https://example.com' with the URL you want to redirect to
             window.location.href = 'data.html';
         }
+    </script> -->
+   
+    <script>
+        function redirectToURL() {
+            // Get form elements
+            var nameInput = document.getElementById("name");
+            var emailInput = document.getElementById("email");
+            var messageInput = document.getElementById("message");
+            var complaintInput = document.getElementById("complaint");
+    
+            // Check if required fields are filled
+            if (nameInput.value.trim() !== '' && emailInput.value.trim() !== '' && messageInput.value.trim() !== '') {
+                window.location.href = 'data.html';
+            } else {
+                alert("Please fill in all required fields.");
+            }
+        }
     </script>
+    
+        
+            
+                        
+                  
+                
+            
+            
+        
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
